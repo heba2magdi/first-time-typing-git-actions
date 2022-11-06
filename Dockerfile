@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY heba.java .
+COPY app.java .
 
-RUN javac heba.java
+RUN javac app.java
 
-CMD java heba
+CMD java app
